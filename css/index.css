@@ -55,7 +55,31 @@ html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
 }
+body nav a {
+    text-decoration: none;
+    color: black;
+	font-size: 15px;
+	width: 50px;
+	height: 30px;
+	padding: 30px;
+	box-sizing: border-box;
+	border: none;
+	margin: 30px;
+	margin-top:40px;
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 30px;
+    margin: auto;
 
+}
 h1, h2, h3, h4, h5 {
     font-size: 18px;
     margin-bottom: 15px;
@@ -111,7 +135,36 @@ p {
     align-items: center;
     justify-content: center;
 }
-
+.middle-content .boxes .box1 {
+    background: teal;
+}
+.middle-content .boxes .box2 {
+    background-color: gold;
+}
+.middle-content .boxes .box3 {
+    background-color: cadetblue;
+}
+.middle-content .boxes .box4 {
+    background-color: coral;
+}
+.middle-content .boxes .box5 {
+    background-color: crimson;
+}
+.middle-content .boxes .box6 {
+    background-color: forestgreen;
+}
+.middle-content .boxes .box7 {
+    background-color: darkorchid;
+}
+.middle-content .boxes .box8 {
+    background-color: hotpink;
+}
+.middle-content .boxes .box9{
+    background-color: indigo;
+}
+.middle-content .boxes .box10{
+    background-color:dodgerblue;
+}
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
