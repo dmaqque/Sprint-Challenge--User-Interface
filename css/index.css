@@ -95,7 +95,7 @@ p {
     margin: 0 auto;
 }
 
-.top-content {
+.two-columns {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -103,7 +103,7 @@ p {
     border-bottom: 1px dashed black;
 }
 
-.top-content .text-container {
+.two-columns .text-container {
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;  
@@ -196,4 +196,27 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+/* About page */
+.intro {
+    border-bottom: 1px dashed black;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+}
+.about-columns {
+    border-bottom: none;
+}
+.about-text {
+    border-bottom: 1px dashed black;
+}
+button {
+    font-size: 15px;
+
+	background-color: white;
+	border: 2px solid black;
+	padding: 5px 20px;
+    text-align: center;
+    border-radius: 10px;
+    margin: 10px;
+    margin-left: 0;
 }
