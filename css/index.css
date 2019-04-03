@@ -55,7 +55,31 @@ html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
 }
+body nav a {
+    text-decoration: none;
+    color: black;
+	font-size: 15px;
+	width: 50px;
+	height: 30px;
+	padding: 30px;
+	box-sizing: border-box;
+	border: none;
+	margin: 30px;
+	margin-top:40px;
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 30px;
+    margin: auto;
 
+}
 h1, h2, h3, h4, h5 {
     font-size: 18px;
     margin-bottom: 15px;
@@ -71,7 +95,7 @@ p {
     margin: 0 auto;
 }
 
-.top-content {
+.two-columns {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -79,7 +103,7 @@ p {
     border-bottom: 1px dashed black;
 }
 
-.top-content .text-container {
+.two-columns .text-container {
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;  
@@ -111,7 +135,36 @@ p {
     align-items: center;
     justify-content: center;
 }
-
+.middle-content .boxes .box1 {
+    background: teal;
+}
+.middle-content .boxes .box2 {
+    background-color: gold;
+}
+.middle-content .boxes .box3 {
+    background-color: cadetblue;
+}
+.middle-content .boxes .box4 {
+    background-color: coral;
+}
+.middle-content .boxes .box5 {
+    background-color: crimson;
+}
+.middle-content .boxes .box6 {
+    background-color: forestgreen;
+}
+.middle-content .boxes .box7 {
+    background-color: darkorchid;
+}
+.middle-content .boxes .box8 {
+    background-color: hotpink;
+}
+.middle-content .boxes .box9{
+    background-color: indigo;
+}
+.middle-content .boxes .box10{
+    background-color:dodgerblue;
+}
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -128,11 +181,13 @@ p {
 
 footer {
     width: 100%;
+    height: 50px;
     background: black;
 }
 
 footer nav {
     width: 60%;
+    height: 50px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -143,4 +198,33 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+/* About page */
+.intro {
+    border-bottom: 1px dashed black;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+}
+.about-columns {
+    border-bottom: none;
+}
+.about-text {
+    border-bottom: 1px dashed black;
+}
+button {
+    font-size: 15px;
+
+	background-color: white;
+	border: 2px solid black;
+	padding: 5px 20px;
+    text-align: center;
+    border-radius: 10px;
+    margin: 10px;
+    margin-left: 0;
+}
+h1 {
+    padding-top: 15px;
+}
+.last-paragraph {
+    margin-bottom: 30px;
 }
